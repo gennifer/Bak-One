@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url('http://fonts.googleapis.com/css?family=Lato:400,700');
+}
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	src: url('http://fonts.googleapis.com/css?family=Lato:400,700');
+}
+
+body {
+	padding-top: 90px;
+}
+
+.intro {
+	background-image: url('../images/Bak-One_Header_Bkgd.png');
+	background-repeat: no-repeat;
+	height:600px;
+	background-position: center top; 
+	color: white;
+	text-align: center;
+}
+
+.navbar, .navbar-nav, .navbar-header, .navbar-collapse{
+	min-height: 78px;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+.navbar-brand > img {
+	float:left;
+}
+
+.navbar-brand > span:last-child {
+	font-size: 14px;
+}
+button{
+	background-color: #FFFFFF;
+}
+
+button:hover,
+button:focus {
+    color: #FFFFFF;
+    background-color: #33cc99;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: ORANGE;
+}
+button.active {
+	background-color: #33cc99;
+	font-color: #FFFFFF;
+}
+
+/*.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+    background-color: #33cc99;
+    margin-top: 15px;
+ 	margin-bottom: 15px;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #33cc99;
+    margin-top: 15px;
+ 	margin-bottom: 15px;
+}*/
